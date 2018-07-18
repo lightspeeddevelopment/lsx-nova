@@ -32,9 +32,9 @@
 ///  $breakpoints: ('phone': 320px);
 ///
 $breakpoints: (
-  'phone': $screen-sm-min,
-  'tablet': $screen-md-min,
-  'desktop': $screen-lg-min
+  'phone': map-get( $grid-breakpoints, 'sm' ),
+  'tablet': map-get( $grid-breakpoints, 'md' ),
+  'desktop': map-get( $grid-breakpoints, 'lg' )
 ) !default;
 
 
