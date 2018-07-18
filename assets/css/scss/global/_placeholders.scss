@@ -4,7 +4,7 @@
 }
 
 %social-icons-scaffolding {
-	@include hide-text();
+	@include text-hide();
 
 	&:before {
 		@include fa-icon();
