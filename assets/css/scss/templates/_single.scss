@@ -68,7 +68,8 @@
 			.previous,
 			.next {
 				@include media('<phone') {
-					@include make-xs-column(12);
+					//TODO SET TO COL12
+					//@include make-column(12);
 				}
 
 				& > a {
