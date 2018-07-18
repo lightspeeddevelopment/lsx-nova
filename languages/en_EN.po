@@ -1,0 +1,799 @@
+# Copyright (C) 2018 lsx
+# This file is distributed under the same license as the lsx package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lsx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LightSpeed <webmaster@lsdev.biz>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:14
+msgid "Whoops!"
+msgstr ""
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comment.php:26
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: comment.php:34
+msgid "(Edit)"
+msgstr ""
+
+#: comment.php:38
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:18
+msgid "Comment"
+msgstr ""
+
+#: comments.php:21, comments.php:23
+msgid "Name"
+msgstr ""
+
+#: comments.php:25, comments.php:27
+msgid "Email"
+msgstr ""
+
+#: comments.php:29, comments.php:30
+msgid "Website"
+msgstr ""
+
+#: comments.php:48
+msgctxt "comments.php"
+msgid "One Response to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:54
+msgctxt "comments.php"
+msgid "%1$s Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:82
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:86
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:94, comments.php:107
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+msgid "&#169; %1$s %2$s All Rights Reserved"
+msgstr ""
+
+#: footer.php:37
+msgid " | %1$s is a WordPress theme developed by %2$s."
+msgstr ""
+
+#: searchform.php:21, woocommerce/product-searchform.php:26, includes/plugins/woocommerce.php:624
+msgid "Search"
+msgstr ""
+
+#: searchform.php:22, woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: sidebar-sitemap.php:27, page-templates/template-archives.php:61
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:45, page-templates/template-archives.php:4
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:57
+msgid "Meta"
+msgstr ""
+
+#: includes/404-widget.php:12
+msgid "404 page"
+msgstr ""
+
+#: includes/config.php:33, includes/config.php:193
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/config.php:34
+msgid "Top Menu (right)"
+msgstr ""
+
+#: includes/config.php:35
+msgid "Top Menu (left)"
+msgstr ""
+
+#: includes/config.php:36, includes/config.php:232
+msgid "Social Menu"
+msgstr ""
+
+#: includes/config.php:37, includes/config.php:247
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/config.php:112, includes/config.php:121
+msgid "Space for Footer Widgets"
+msgstr ""
+
+#: includes/config.php:113, includes/config.php:122
+msgid "This is here to showcase some footer widgets. You can decide what to add and what to hide. Nam nostrum evertitur ad, ut pri nibh veniam, urbanitas definitionem eum ex."
+msgstr ""
+
+#: includes/config.php:130
+msgid "Contact us:"
+msgstr ""
+
+#: includes/config.php:141
+msgid "A Footer Call to Action"
+msgstr ""
+
+#: includes/config.php:142
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+msgstr ""
+
+#: includes/config.php:152
+msgid "LSX is a free WordPress theme"
+msgstr ""
+
+#: includes/config.php:169
+msgctxt "Theme starter content"
+msgid "Banner Example 01"
+msgstr ""
+
+#: includes/config.php:174
+msgctxt "Theme starter content"
+msgid "Banner Example 02"
+msgstr ""
+
+#: includes/config.php:179
+msgctxt "Theme starter content"
+msgid "Banner Example 03"
+msgstr ""
+
+#: includes/config.php:188
+msgid "LSX starter content example"
+msgstr ""
+
+#: includes/config.php:204
+msgid "Top Menu"
+msgstr ""
+
+#: includes/customizer.php:25
+msgid "Core Settings"
+msgstr ""
+
+#: includes/customizer.php:26
+msgid "Change the core settings."
+msgstr ""
+
+#: includes/customizer.php:37
+msgid "Lazy Loading Images"
+msgstr ""
+
+#: includes/customizer.php:49
+msgid "Preloader Content"
+msgstr ""
+
+#: includes/customizer.php:73
+msgid "Layout"
+msgstr ""
+
+#: includes/customizer.php:74
+msgid "Change the layout sitewide. If your homepage is set to use a page with a template, the following will not apply to it."
+msgstr ""
+
+#: includes/customizer.php:85
+msgid "Header"
+msgstr ""
+
+#: includes/customizer.php:102
+msgid "Body"
+msgstr ""
+
+#: includes/customizer.php:119
+msgid "Fixed Header"
+msgstr ""
+
+#: includes/customizer.php:131
+msgid "Search Box in Header"
+msgstr ""
+
+#: includes/customizer.php:175
+msgid "Font"
+msgstr ""
+
+#: includes/customizer.php:176
+msgid "Change the fonts sitewide."
+msgstr ""
+
+#: includes/extras.php:350
+msgid "Continue reading"
+msgstr ""
+
+#: includes/extras.php:409
+msgid "More"
+msgstr ""
+
+#: includes/layout.php:217
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/layout.php:246
+msgid "Type:"
+msgstr ""
+
+#: includes/layout.php:262
+msgid "Blog"
+msgstr ""
+
+#: includes/layout.php:334
+msgid "About the author"
+msgstr ""
+
+#: includes/layout.php:342
+msgid "All posts by %s"
+msgstr ""
+
+#: includes/sanitize.php:65
+msgid "Choice doesn't exist"
+msgstr ""
+
+#: includes/sanitize.php:112
+msgid "Not a boolean"
+msgstr ""
+
+#: includes/template-tags.php:244
+msgid "by"
+msgstr ""
+
+#: includes/template-tags.php:267
+msgid "View all posts in %s"
+msgstr ""
+
+#: includes/template-tags.php:272
+msgid "Posted in"
+msgstr ""
+
+#: includes/template-tags.php:388, woocommerce/loop/pagination.php:38
+msgid "Previous"
+msgstr ""
+
+#: includes/template-tags.php:389, woocommerce/loop/pagination.php:39
+msgid "Next"
+msgstr ""
+
+#: includes/template-tags.php:423
+msgctxt "Previous post link"
+msgid "Previous Post"
+msgstr ""
+
+#: includes/template-tags.php:426
+msgctxt "Next post link"
+msgid "Next Post"
+msgstr ""
+
+#: includes/template-tags.php:470
+msgid "Toggle navigation"
+msgstr ""
+
+#: includes/template-tags.php:476
+msgid "Menu"
+msgstr ""
+
+#: includes/template-tags.php:538
+msgid "Pages"
+msgstr ""
+
+#: includes/welcome.php:63
+msgid "Thanks for choosing LSX! You can read hints and tips on how get the most out of your new theme on the %1$swelcome screen%2$s."
+msgstr ""
+
+#: includes/welcome.php:69
+msgid "Get started with LSX"
+msgstr ""
+
+#: includes/widgets.php:23, includes/plugins/woocommerce.php:610
+msgid "Home"
+msgstr ""
+
+#: includes/widgets.php:32
+msgid "Sidebar"
+msgstr ""
+
+#: includes/widgets.php:41
+msgid "Footer"
+msgstr ""
+
+#: includes/widgets.php:50
+msgid "Footer Call to Action"
+msgstr ""
+
+#: page-templates/template-archives.php:34
+msgid "The Last 30 Posts"
+msgstr ""
+
+#: page-templates/template-archives.php:52
+msgid "comments"
+msgstr ""
+
+#: page-templates/template-archives.php:67
+msgid "Monthly Archives"
+msgstr ""
+
+#: page-templates/template-archives.php:74, page-templates/template-sitemap.php:38, partials/content-custom.php:28, partials/content-page.php:28, partials/content-post.php:58, partials/content.php:95
+msgid "Edit"
+msgstr ""
+
+#: page-templates/template-front-page.php:4
+msgid "Front Page"
+msgstr ""
+
+#: page-templates/template-front-page.php:36
+msgid "Pages:"
+msgstr ""
+
+#: page-templates/template-full-width-no-margins.php:4
+msgid "Full Width (no margins)"
+msgstr ""
+
+#: page-templates/template-full-width.php:4
+msgid "Full Width"
+msgstr ""
+
+#: page-templates/template-no-sidebar.php:4
+msgid "No Sidebar"
+msgstr ""
+
+#: page-templates/template-sitemap.php:4
+msgid "Sitemap"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:4
+msgid "WC Thank You"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:37
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:41
+msgid "Order Details"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:46
+msgid "Order:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:51
+msgid "Date:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:56
+msgid "Total:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:62
+msgid "Payment method:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:71
+msgid "Customer details"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:75
+msgid "Email:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:76
+msgid "Telephone:"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:90
+msgid "Billing Address"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:95, page-templates/template-wc-thank-you.php:112
+msgid "N/A"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:107
+msgid "Shipping Address"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:125
+msgid "Products details"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:130
+msgid "Product"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:131
+msgid "Total"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:186
+msgid "Download file%s"
+msgstr ""
+
+#: page-templates/template-wc-thank-you.php:235
+msgid "Invalid order."
+msgstr ""
+
+#: partials/content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: partials/content-none.php:18
+msgid "Get started here"
+msgstr ""
+
+#: partials/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: partials/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: partials/content.php:84, tribe-events/list/single-featured.php:36
+msgid "Featured"
+msgstr ""
+
+#: partials/content.php:139
+msgctxt "content.php"
+msgid "One Comment"
+msgstr ""
+
+#: partials/content.php:143
+msgctxt "content.php"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/content-widget-product.php:50, woocommerce/content-widget-review.php:34
+msgid "View more"
+msgstr ""
+
+#: woocommerce/content-widget-review.php:28
+msgid "by %s"
+msgstr ""
+
+#: includes/classes/class-lsx-bootstrap-navwalker.php:223
+msgid "Add a menu"
+msgstr ""
+
+#: includes/classes/class-lsx-wc-widget-recent-reviews.php:23
+msgid "Display a list of your most recent reviews on your site."
+msgstr ""
+
+#: includes/classes/class-lsx-wc-widget-recent-reviews.php:25
+msgid "WooCommerce recent reviews"
+msgstr ""
+
+#: includes/classes/class-lsx-wc-widget-recent-reviews.php:29
+msgid "Recent reviews"
+msgstr ""
+
+#: includes/classes/class-lsx-wc-widget-recent-reviews.php:30
+msgid "Title"
+msgstr ""
+
+#: includes/classes/class-lsx-wc-widget-recent-reviews.php:38
+msgid "Number of reviews to show"
+msgstr ""
+
+#: includes/plugins/sensei.php:155
+msgid "View course"
+msgstr ""
+
+#: includes/plugins/sensei.php:179
+msgid "Add to cart"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:197, includes/plugins/woocommerce.php:348
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:200, includes/plugins/woocommerce.php:352
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/woocommerce.php:295, includes/plugins/woocommerce.php:297
+msgid "Free!"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:379
+msgid "1 other item in cart"
+msgstr ""
+
+#. translators: %s: items counter
+#: includes/plugins/woocommerce.php:382
+msgid "%s other items in cart"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:527
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:528
+msgid "Change the WooCommerce settings."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:537
+msgid "Global"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:538
+msgid "Change the WooCommerce global settings."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:549
+msgid "Footer Bar"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:550
+msgid "Enable the mobile footer bar."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:561, includes/plugins/woocommerce.php:635
+msgid "Cart"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:562
+msgid "Change the WooCommerce cart settings."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:573
+msgid "Menu Item"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:574
+msgid "Enable the cart menu item."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:601
+msgid "Search products"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:602
+msgid "Search products..."
+msgstr ""
+
+#: includes/plugins/woocommerce.php:617
+msgid "Account"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:684
+msgid "Download"
+msgstr ""
+
+#: includes/plugins/woocommerce.php:710
+msgid "Included Products"
+msgstr ""
+
+#: tribe-events/day/single-event.php:65, tribe-events/day/single-featured.php:57, tribe-events/list/single-event.php:74, tribe-events/list/single-featured.php:69
+msgid "Price:"
+msgstr ""
+
+#: tribe-events/day/single-event.php:80, tribe-events/day/single-featured.php:70, tribe-events/list/single-event.php:93, tribe-events/list/single-featured.php:82
+msgid "Find out more"
+msgstr ""
+
+#: tribe-events/pro/related-events.php:26
+msgid "Related %s"
+msgstr ""
+
+#: tribe-events/pro/related-events.php:42
+msgid "View event"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:13
+msgid "Enhance LSX"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:14
+msgid "Take a look at our range of extensions that add to the already rich functionality of the LSX WordPress theme."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:19
+msgid "Banners"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:20
+msgid "The LSX Banners extension adds advanced banner configuration options to your WordPress site running LSX theme."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:26
+msgid "Currencies"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:27
+msgid "The LSX Currencies extension adds currency selection functionality to sites, allowing users to view your products in whatever currencies you choose to sell in."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:33
+msgid "Blog Customizer"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:34
+msgid "It allows you it to customize various aspects of the the appearance of your blog, posts widgets, archive pages and single posts so they looks exactly how you want."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:42
+msgid "Customizer"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:43
+msgid "You've installed LSX, so now why not make it all yours? Whether it's a small CSS tweak or changing the entire layout of pages, posts or archives, please make use of the Theme Customizer plugin."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:49
+msgid "Login"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:50
+msgid "The LSX Login extension allows users to log into a dashboard and then see configurable content based on which users can access which content."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:56
+msgid "Mega Menus"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:57
+msgid "Create custom, full-width dropdown menus that contain images, widgets and more that seamlessly tie into your LSX WordPress site."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:65
+msgid "Team"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:66
+msgid "The LSX Team Extension provides a custom post type that allows you to easily show off the people that make up your business."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:72
+msgid "Testimonials"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:73
+msgid "The LSX Testimonials extension adds the \"Testimonials\" post type, which you can display front-and-centre on your site."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:79
+msgid "Geo Content"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:80
+msgid "LSX Geo Content allows you to serve different content to users based on their automatically-detected IP address."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:88
+msgid "Services"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:89
+msgid "Adds the \"Service\" post type to your LSX website which allows you to display and categorize the services your business provides."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:95
+msgid "Projects"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:96
+msgid "Show off your finest work with the LSX Projects Extension! It adds a \"Project\" post type, allowing you to categorize and display your Projects on your LSX website."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:102
+msgid "Sharing"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:103
+msgid "LSX Sharing adds buttons to your posts that your readers can use to share your content on Facebook, Twitter and Pinterest."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:108
+msgid "LSX extensions bundles"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:109
+msgid "We've created two bundles to help you to get the most out of LSX Theme."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:114
+msgid "LSX Essentials"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:115
+msgid "A collection of essential LSX extensions giving you more functionality, additional content types and greater control over the styling of your theme."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:121
+msgid "LSX Complete"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-enhance.php:122
+msgid "A full set of LSX extensions giving you all the functionality, content types and customization tools you may need!"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:13
+msgid "Newsletter"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:14
+msgid "Subscribe to our mailing list."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:21
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:25
+msgid "First Name"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:29
+msgid "Last Name"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:36
+msgid "Subscribe"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:45
+msgid "Enjoying LSX?"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-footer.php:51
+msgid "Why not %1$sleave a review%2$s on WordPress.org? We're looking foward to all our users' feedback!"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:12
+msgid "LSX"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:19
+msgid "Built to enrich your WordPress experience"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:20
+msgid "Whether you're using LSX for your personal blog, as the platform for a powerful WooCommerce store or as the foundation for your own child-theme, you'll find it's the perfect fit for WordPress."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:26
+msgid "Use LSX with our %1$sTour Operator Plugin%2$s to create the ultimate tour operators website!"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:37
+msgid "Get support"
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:43
+msgid "You'll find information on how to use and customize the LSX theme in our %1$sdocumentation%2$s section. However, please do %3$scontact us%4$s for support should you still find yourself unable to achieve your needs."
+msgstr ""
+
+#: includes/admin/welcome-screen/component-header.php:54
+msgid "Get in touch"
+msgstr ""
