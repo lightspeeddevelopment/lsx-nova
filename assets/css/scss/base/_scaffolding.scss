@@ -21,7 +21,7 @@ html {
 
 body { direction: ltr; }
 
-img { @include img-responsive(inline-block); }
+img { @include img-fluid(); }
 
 figure { max-width: 100%; }
 
