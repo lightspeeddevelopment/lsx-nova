@@ -465,13 +465,11 @@ if ( ! function_exists( 'lsx_navbar_header' ) ) :
 			<?php
 				if ( has_nav_menu( 'primary' ) ) :
 					?>
-					<div class="wrapper-toggle" data-toggle="collapse" data-target=".primary-navbar">
-						<button type="button" class="navbar-toggle">
+					<div class="wrapper-toggle" data-toggle="collapse" data-target="">
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".primary-navbar" aria-controls="primary-navbar" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'lsx' ); ?></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<span class="navbar-toggler-icon"></span>
 						</button>
 						<span class="mobile-menu-title"><?php esc_html_e( 'Menu', 'lsx' ); ?></span>
 					</div>
@@ -499,13 +497,13 @@ if ( ! function_exists( 'lsx_nav_menu' ) ) :
 	function lsx_nav_menu() {
 		if ( has_nav_menu( 'primary' ) ) :
 			?>
-			<nav class="primary-navbar collapse navbar-collapse">
+			<nav class="primary-navbar navbar navbar-expand-lg">
 				<?php
 					wp_nav_menu( array(
 						'theme_location' => 'primary',
 						'depth'          => 3,
 						'container'      => false,
-						'menu_class'     => 'nav navbar-nav',
+						'menu_class'     => 'navbar-nav',
 						'walker'         => new LSX_Bootstrap_Navwalker(),
 					) );
 				?>

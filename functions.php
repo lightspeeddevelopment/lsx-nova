@@ -36,10 +36,13 @@ require get_template_directory() . '/includes/layout.php';
 require get_template_directory() . '/includes/hooks.php';
 require get_template_directory() . '/includes/widgets.php';
 require get_template_directory() . '/includes/scripts.php';
+
 require get_template_directory() . '/includes/classes/class-lsx-nav-walker.php';
 require get_template_directory() . '/includes/nav-navwalker.php';
+
 require get_template_directory() . '/includes/classes/class-lsx-bootstrap-navwalker.php';
 require get_template_directory() . '/includes/nav-bootstrap-navwalker.php';
+
 require get_template_directory() . '/includes/classes/class-lsx-walker-comment.php';
 require get_template_directory() . '/includes/walker-comment.php';
 require get_template_directory() . '/includes/classes/class-lsx-lazy-load-images.php';
