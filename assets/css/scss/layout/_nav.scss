@@ -158,9 +158,6 @@
 			}
 
 			& > .navbar-nav {
-				display: flex;
-				flex: 1;
-				height: 100%;
 
 				.header-expanded &,
 				.header-central & {
@@ -208,16 +205,6 @@
 				}
 
 				.dropdown-menu {
-					box-shadow: none;
-					border: 0 none;
-					border-radius: 0;
-					display: block;
-					margin: 0;
-					opacity: .3;
-					padding: 0;
-					transition: all 300ms ease;
-					transform: scale(1, 0);
-					transform-origin: top center;
 
 					& > .menu-item {
 						transition: all 300ms ease;
