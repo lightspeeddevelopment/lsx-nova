@@ -16,7 +16,7 @@ html {
 
 	@include media('>=phone') { font-size: 6.5px; }
 	@include media('>=tablet') { font-size: 8px; }
-	@include media('>=desktop') { font-size: 10px; }
+	@include media('>=desktop') { font-size: 15px; }
 }
 
 body { direction: ltr; }
