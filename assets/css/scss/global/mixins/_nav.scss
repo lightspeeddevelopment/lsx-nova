@@ -46,7 +46,7 @@
 	@media (min-width: 1200px) {
 		#masthead {
 			.primary-navbar {
-				& > .nav {
+				& > .navbar-nav {
 					background-color: $bg;
 
 					& > .menu-item {

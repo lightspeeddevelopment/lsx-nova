@@ -144,6 +144,7 @@ if ( ! class_exists( 'LSX_Bootstrap_Navwalker' ) ) :
 
 			// Allow filtering the classes.
 			$classes = apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth );
+			$classes[] = 'menu-item';
 
 			// Form a string of classes in format: class="class_names".
 			$class_names = join( ' ', $classes );
