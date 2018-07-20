@@ -14,10 +14,10 @@
 
 				.mobile-menu-title { color: $dropdown-link; }
 
-				.navbar-toggle {
+				.navbar-toggler {
 					background-color: $dropdown;
 
-					& > .icon-bar { background-color: $dropdown-link; }
+					& > .navbar-toggler-icon { color: $dropdown-link; }
 				}
 			}
 
@@ -28,7 +28,7 @@
 					&.active > a,
 					& > a {
 						background-color: $dropdown;
-						color: $dropdown-link;
+						color: $light-gray;
 					}
 				}
 

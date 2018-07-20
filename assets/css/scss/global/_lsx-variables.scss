@@ -105,11 +105,11 @@ $top-menu: (
 $nav: (
 	bg: #FFF,
 	link: #515151,
-	hover: nth($blue, 1),
+	hover: $light-gray,
 	dropdown: nth($blue, 2),
 	dropdown-hover: nth($blue, 4),
 	dropdown-link: #FFF,
-	dropdown-link-hover: nth($blue, 1)
+	dropdown-link-hover: $light-gray
 );
 
 $header: (

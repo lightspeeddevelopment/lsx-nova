@@ -1,12 +1,11 @@
 #masthead {
 	#searchform {
-		display: inline-block;
 		line-height: 1;
 		order: 2;
-		position: absolute;
 		right: 15px;
 		top: 11px;
 		transition: all 300ms ease-in-out;
+		align-self:center;
 
 		@include media('>=phone') {
 			right: 30px;

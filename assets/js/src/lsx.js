@@ -92,8 +92,8 @@ var lsx = Object.create( null );
     lsx.fix_bootstrap_menus_dropdown = function() {
         $( '.navbar-nav .dropdown, #top-menu .dropdown' ).on( 'show.bs.dropdown', function() {
             if ( windowWidth < 1200 ) {
-                $( this ).siblings( '.open' ).removeClass( 'open' ).find( 'a.dropdown-toggle' ).attr( 'data-toggle', 'dropdown' );
-                $( this ).find( 'a.dropdown-toggle' ).removeAttr( 'data-toggle' );
+                //$( this ).siblings( '.open' ).removeClass( 'open' ).find( 'a.dropdown-toggle' ).attr( 'data-toggle', 'dropdown' );
+                //$( this ).find( 'a.dropdown-toggle' ).removeAttr( 'data-toggle' );
             }
         } );
 
@@ -126,10 +126,12 @@ var lsx = Object.create( null );
      * @subpackage scripts
      */
     lsx.fix_bootstrap_menus_dropdown_click = function() {
+        console.log(windowWidth);
+
         if ( windowWidth < 1200 ) {
             $( '.navbar-nav .dropdown .dropdown > a, #top-menu .dropdown .dropdown > a' ).on( 'click', function( e ) {
-                if ( ! $( this ).parent().hasClass( 'open' ) ) {
-                    $( this ).parent().addClass( 'open' );
+                if ( ! $( this ).parent().hasClass( 'show' ) ) {
+                    $( this ).parent().addClass( 'show' );
                     $( this ).next( '.dropdown-menu' ).dropdown( 'toggle' );
                     e.stopPropagation();
                     e.preventDefault();
@@ -139,6 +141,8 @@ var lsx = Object.create( null );
             $( '.navbar-nav .dropdown .dropdown .dropdown-menu a, #top-menu .dropdown .dropdown > a' ).on( 'click', function( e ) {
                 document.location.href = this.href;
             } );
+        } else {
+            $( '.navbar-collapse.navbar-expand-lg' ).addClass('show');
         }
     };
 
@@ -574,9 +578,9 @@ var lsx = Object.create( null );
      */
     $document.ready( function() {
 
-        //lsx.navbar_toggle_handler();
+        lsx.navbar_toggle_handler();
 
-        // lsx.fix_bootstrap_menus_touchstart();
+        //lsx.fix_bootstrap_menus_touchstart();
 
         lsx.add_class_browser_to_html();
         lsx.add_class_sidebar_to_body();
@@ -607,7 +611,7 @@ var lsx = Object.create( null );
     $window.load( function() {
 
         //lsx.fix_bootstrap_menus_dropdown();
-        //lsx.fix_bootstrap_menus_dropdown_click();
+        lsx.fix_bootstrap_menus_dropdown_click();
         lsx.fix_lazyload_envira_gallery();
 
         lsx.set_search_form_effect_mobile();
