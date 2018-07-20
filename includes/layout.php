@@ -94,7 +94,7 @@ if ( ! function_exists( 'lsx_header_classes' ) ) :
 	 * @subpackage layout
 	 */
 	function lsx_header_classes( $additional = false ) {
-		$classes = 'banner navbar navbar-default';
+		$classes = 'banner';
 
 		if ( false !== $additional ) {
 			$classes .= ' ' . $additional;

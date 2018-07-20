@@ -149,6 +149,8 @@
 			margin-left: 100px;
 			margin-right: 45px;
 			padding: 0;
+			align-self: stretch;
+			flex-grow: 1;
 
 			.header-expanded &,
 			.header-central & {
@@ -158,6 +160,7 @@
 			}
 
 			& > .navbar-nav {
+				align-self: stretch;
 
 				.header-expanded &,
 				.header-central & {
