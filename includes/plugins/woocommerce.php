@@ -799,7 +799,7 @@ if ( ! function_exists( 'lsx_wc_product_searchform' ) ) :
 					<label class="hide"><?php esc_attr_e( \'Search for:\', \'lsx\' ); ?></label>
 			
 					<span class="input-group-btn">
-						<button type="submit" class="search-submit btn btn-default"><span class="fa fa-search"></span></button>
+						<button type="submit" class="search-submit btn btn-secondary"><span class="fa fa-search"></span></button>
 					</span>
 				</div>
 			
