@@ -508,17 +508,26 @@ h2.tribe-events-page-title {
 .tribe-community-events {
 
 	.my-events-header {
+		padding-bottom: 10px;
+
 		p {
 			margin-bottom: 0px;
-			padding-bottom: 10px;
 		}
 	}
 
-	.form {
+	form {
 		.tribe-section {
 			.tribe-section-header {
 				p {
 					display:none;
+				}
+			}
+
+			.tribe-datetime-block {
+				.tribe-section-content-field {
+					br {
+						display: none;
+					}
 				}
 			}
 		}
