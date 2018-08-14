@@ -503,22 +503,30 @@ h2.tribe-events-page-title {
 	padding: 0 10px;
 }
 
-/** General Events Styling ***/
-
-.my-events-header {
-	p {
-		margin-bottom: 0px;
-	}
-}
-
 /** Community Events Add Event **/
 
-.tribe-community-events.form {
-	.tribe-section-datetime {
-		.tribe-section-header {
-			p {
-				display:none;
+.tribe-community-events {
+
+	.my-events-header {
+		p {
+			margin-bottom: 0px;
+			padding-bottom: 10px;
+		}
+	}
+
+	.form {
+		.tribe-section {
+			.tribe-section-header {
+				p {
+					display:none;
+				}
 			}
+		}
+	}
+
+	.events-community-post-title {
+		label {
+			min-width: 30%;
 		}
 	}
 }
