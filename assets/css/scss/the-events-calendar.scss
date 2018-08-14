@@ -524,10 +524,14 @@ h2.tribe-events-page-title {
 		}
 	}
 
-	.events-community-post-title {
+	.events-community-post-title, .events-community-post-content {
 		label {
 			min-width: 30%;
 		}
+	}
+
+	.events-community-post-content {
+		vertical-align: top;
 	}
 }
 
