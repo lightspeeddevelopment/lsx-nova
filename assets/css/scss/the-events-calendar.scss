@@ -528,6 +528,10 @@ h2.tribe-events-page-title {
 					br {
 						display: none;
 					}
+
+					p {
+						display:inline-block;
+					}
 				}
 			}
 		}
@@ -540,7 +544,9 @@ h2.tribe-events-page-title {
 	}
 
 	.events-community-post-content {
-		vertical-align: top;
+		label {
+			vertical-align: top;
+		}
 	}
 }
 
