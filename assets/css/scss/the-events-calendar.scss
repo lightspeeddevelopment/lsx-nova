@@ -503,6 +503,28 @@ h2.tribe-events-page-title {
 	padding: 0 10px;
 }
 
+/** General Events Styling ***/
+
+.my-events-header {
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+/** Community Events Add Event **/
+
+.tribe-community-events.form {
+	.tribe-section-datetime {
+		.tribe-section-header {
+			p {
+				display:none;
+			}
+		}
+	}
+}
+
+/**  Responsive ***/
+
 @media (min-width: 992px) {
 	.tribe_events .cart {
 		float: right;
