@@ -545,6 +545,12 @@ h2.tribe-events-page-title {
 				.recurrence-rules-header {
 					vertical-align: top;
 				}
+
+				.tribe-event-recurrence {
+					p:first-child {
+						display:none;
+					}
+				}
 			}
 		}
 	}
