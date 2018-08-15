@@ -552,6 +552,18 @@ h2.tribe-events-page-title {
 					}
 				}
 			}
+
+			&.tribe-section-venue {
+				p {
+					display:none;
+				}
+
+				.tribe-dropdown {
+					.saved-linked-post {
+						margin-bottom: 5px;
+					}
+				}
+			}
 		}
 	}
 
