@@ -523,6 +523,10 @@ h2.tribe-events-page-title {
 				}
 			}
 
+			p {
+				margin-bottom: 0;
+			}
+
 			.tribe-datetime-block {
 				.tribe-section-content-field {
 					br {
@@ -531,7 +535,15 @@ h2.tribe-events-page-title {
 
 					p {
 						display:inline-block;
+						margin-bottom: 0px;
+
 					}
+				}
+			}
+
+			.recurrence-row.tribe-datetime-block {
+				.recurrence-rules-header {
+					vertical-align: top;
 				}
 			}
 		}
