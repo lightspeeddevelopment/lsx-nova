@@ -543,12 +543,18 @@ h2.tribe-events-page-title {
 
 			.recurrence-row.tribe-datetime-block {
 				.recurrence-rules-header {
-					vertical-align: top;
+					vertical-align: middle;
 				}
 
 				.tribe-event-recurrence {
 					p:first-child {
 						display:none;
+					}
+				}
+
+				.tribe-add-recurrence {
+					.button {
+						margin-top: 25px;
 					}
 				}
 			}
